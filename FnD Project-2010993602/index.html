@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/css/uikit.min.css" />
+    <script src="https://kit.fontawesome.com/33e495fb35.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar" style = "height: 80px">
+          <div class="search-bar">
+            <input class="search" id="search_items" placeholder="Search" data-reactid="904">
+            <button id="search_btn"><i  class="fa fa-search"></i></button>
+          <a href="#cart"><i class="fas fa-cart-arrow-down"></i></a>
+          </div>
+          <h2>Stop Shop</h2>
+      </nav>
+      
+      <div class="box">
+          <div class = "row" id="prodsec" style="margin: 50px auto auto 160px">
+              
+            
+            <h2>Loading . . . .</h2> 
+
+          </div>
+      </div>
+      <div class="" id="cart" style = "width: 100%">
+        <table id="cart" class="uk-table uk-table uk-table-middle uk-table-divider">
+            <thead>
+                <tr>
+                    <h1>MY CART</h1>
+                    <th class="uk-table-shrink"></th>
+                    <th class="uk-table-small sty"><h3>ITEM</h3></th>
+                    <th class="uk-table-small"></th>
+                    <th class="uk-width-small sty"><h3>PRICE</h3></th>
+                    <th class="uk-table-shrink uk-text-small sty"><h3>QUANTITY</h3></th>
+                    <th class="uk-table-shrink uk-text-small sty"><h3>TOTAL</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                </tr>
+          
+
+            </tbody>
+            <tr>
+              <td><img class="uk-preserve-width uk-border-circle"  width="40" alt=""></td>
+              <td class="uk-table-link">
+                  <h3 class = "item-name"><strong>Grand-Total</strong></h3>
+              </td>
+
+              <td class="uk-text-truncate"><h3></h3></td>
+              <td class="uk-text-truncate"><h3></h3></td>
+              <td class="uk-text-truncate grand-total"><h3><strong>₹0</strong></h3></td>
+              <td><button type="button" id="btn1"  style="font-family:cursive ; height:50px ; font-size: 15px; background:linear-gradient(to right, #7303c0, #ec38bc, #7303c0, #03001e); color:white;" > Place Order </button></td>
+              
+          </tr>
+        </table>
+
+        <div id="root">
+
+        </div>
+    </div>
+
+      <script src = "script.js"></script>
+</body>
+</html>
